@@ -1,0 +1,61 @@
+.contactos {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.contactostitulo {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contactosdelista {
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 4px 10px rgb(0, 0, 0);
+    border-radius: 40px;
+    padding: 0.5em 0.7em;
+    margin: 10px;
+}
+
+.listacontactos {
+    
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+    
+ 
+
+
+@media (min-width:950px) {
+
+    .contactostitulo {
+        font-size: 50px;
+    
+    }
+    
+    .contactosdelista {
+        font-size: 30px;
+        font-weight: 500;
+        box-shadow: 0 4px 10px rgb(0, 0, 0);
+        border-radius: 40px;
+        padding: 0.5em 0.7em;
+        margin: 20px;
+    }
+    
+    .listacontactos {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+
+}
