@@ -1,0 +1,60 @@
+:root {
+    --theme-color: rgb(0, 0, 0);
+    --text-color: rgb(255, 255, 255); 
+    
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--theme-color);
+    color: var(--text-color);
+    padding-top: 150px;
+    background-image:url(/imagenes/6843266.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
+
+}
+    
+
+
+a {
+    text-decoration: none;
+    color: var(--text-color)
+
+}
+
+.horizontalpadding {
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.verticalpadding {
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+footer {
+    text-align: center;
+}
+
+@media (min-width: 950px) {
+
+    .horizontalpadding {
+        padding-left: 70px;
+        padding-right: 70px;
+    
+    }
+    
+    .verticalpadding {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    
+    }
+
+   
+
+}
+

@@ -1,0 +1,27 @@
+body {
+    background-image:url(/imagenes/6843266.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+
+.formulariotitulo {
+    color: rgb(252, 252, 252);
+}
+
+.textocorreo {
+    color: black;
+}
+
+.boton {
+    margin: 5px 90px;
+}
+
+@media (max-width: 950px) {
+    .textocorreo {
+        color: white;
+    }
+
+}
+
+

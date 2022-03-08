@@ -1,0 +1,42 @@
+.productostitulo {
+    color: black;
+    margin: 0 auto;
+}
+
+.productosdelista {
+    background: black;
+    margin: 5 auto;
+}
+
+.contactostitulo {
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+}
+
+.contactosdelista {
+    background: black;
+    margin: 5 auto;
+}
+
+.formulario {
+  width: 275px;  
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.281);
+  
+
+}
+
+
+.info {
+    font-size: 28px;
+    width: 250px;
+    margin: 10px 8px;
+    background: white;
+}
+
+.textocorreo {
+    text-align: center;
+    font-size: large;
+    color: white;
+
+}
